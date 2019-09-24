@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".Quiz">
+
+    <TextView
+        android:id="@+id/txt_quiz11"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/txt_quiz"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A CJL busca entretenimento misturado com Tecnologia. Que tal aprender um pouco? Buscamos sempre manifestar nosso interesse em passar conhecimento para todos os usuários e motiva-los a conhecer ainda mais a area de tecnologia. Para isso, criamos um Quiz, onde você pode escolher o nível de perguntas e responder.
+                \n Como incentivo, a CJL irá publicar no instagram o usuário que conseguir acertar todas as questões!
+                \n Para participar, basta acertar todas as questões! No final irá aparecer a quantidade de acertos e erros.
+                \n Tire um Print mostrando o numero de acertos e nos envie no DIRECT do nosso Instagram!
+
+                \nObs.: O usuário deve seguir a pagina da CJL."
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/Obs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Obs.: Só é possivel fazer o quiz 1(uma) única vez. Boa sorte! "
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFC107"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <View
+                android:id="@+id/view28"
+                android:layout_width="match_parent"
+                android:layout_height="17dp" />
+
+            <Button
+                android:id="@+id/btn_iniciante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shapepreto"
+                android:text="INICIANTE"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/view29"
+                android:layout_width="match_parent"
+                android:layout_height="17dp" />
+
+            <Button
+                android:id="@+id/btn_intermediario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shapepreto"
+                android:text="Intermediario"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/view30"
+                android:layout_width="match_parent"
+                android:layout_height="17dp" />
+
+            <Button
+                android:id="@+id/btn_avancado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shapepreto"
+                android:text="Avançado"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

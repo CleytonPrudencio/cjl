@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".CrescimentoEmpresarial">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_cres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_cresc"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_descricaocrescimento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se toda empresa busca crescer e sendo esse um desafio presente em todos os mercados, não seria diferente no que diz respeito às micro, pequenas e médias empresas. Porém, surge aqui um agravante: essas empresas, em geral, possuem uma capacidade de investimento menor.
+
+        \nÉ sabido que para crescer é preciso investir. Não há mágica.
+
+        \nA CJL busca investir em seus equipamentos e técnicos para assim, atender melhor nossos clientes.
+        Obviamente, este deve ser um investimento estudado e preparado, não colocando a empresa em risco.
+
+        \nNossa gestão empresarial de qualidade, sempre aplicando as melhoras praticas, de gerenciamento administrativo e de gestão de projetos.
+        "
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_maisinformacoes_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\nPara mais informações sobre nossa empresa, acesse:
+        www.consultoriacjl.com.br
+        (CLiquem em cima deste texto e seja redirecionado ao site.)"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_contatos_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nClique aqui para ir a tela de contatos."
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

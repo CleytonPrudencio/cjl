@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".dados_de_seguranca">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_segurancadainformacao"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/txt_segurancadainformacao"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_descriacaoperdadedados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O que é segurança da Informação?"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" O nome é sugestivo: segurança da informação diz respeito ao conjunto de ações para proteção de um grupo de dados, protegendo o valor que ele possui, seja para um indivíduo específico no âmbito pessoal, seja para uma organização.
+
+\n Ela não está restrita a sistemas comunicacionais, se aplicando a todos os aspectos de proteção de dados. Mas este conteúdo irá focar nesse aspecto, para facilitar o trabalho da área TI."
+                android:textColor="@color/colorAccent" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="146dp"
+                app:srcCompat="@mipmap/perda4" />
+
+            <TextView
+                android:id="@+id/txt_descriacaoperdadedados2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O que envolve a segurança da informação?"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+android:text=" A segurança da informação se baseia nos seguintes pilares:
+
+\n confidencialidade;
+\n integridade;
+\n disponibilidade;
+\n autenticidade.
+\n Ou seja, é necessário que as ações realizadas se dediquem a garantir esses quatro aspectos anteriores. E não é difícil compreender seu contexto na área de segurança.
+
+\n Por exemplo, um erro de confidencialidade pode expor dados estratégicos da organização para concorrentes, ou então um vazamento de dados de clientes realizado por hackers.
+
+\n Esse tipo de problema gera prejuízos financeiros e problemas com a imagem da corporação no mercado, evidenciando as falhas de segurança para o público.
+
+\n A integridade das informações também é essencial. Por exemplo, um erro no disco rígido pode corromper determinados arquivos importantes. Sem um backup, as funções da empresa podem ficar comprometidas.
+
+\n Disponibilidade é outro ponto essencial, já que os dados precisam estar acessíveis no momento em que foram requisitados, principalmente para garantir a agilidade dos processos.
+
+\n Isso pode ser impedido, por exemplo, por ataques de sequestro de dados (ransomware), que tem justamente a indisponibilidade como objetivo.
+
+\n Por fim, para garantir a segurança de dados, é fundamental garantir meios de autenticidade das informações preservadas. Há um grande risco de fraudes e isso pode causar problemas graves a longo prazo.
+
+\n Por exemplo, o uso de informações de cartões de crédito pode levar a clonagem dos dados. E isso é evidenciado para o público que perde a confiança na empresa.
+
+\n A pessoa saberá que foi uma falha de segurança gerada na organização que levou ao problema e deixará de ser cliente, bem como irá informar outros colegas sobre a situação.
+
+\n E, em tempos de redes sociais, uma informação pode ser propagada rapidamente, gerando uma imagem ruim da área de segurança da informação da empresa, manchando seu nome como profissional.
+
+\n Portanto, é imprescindível que as ações a serem implementadas na área de segurança priorizem sempre estes quatro pilares. Não perca eles de vista no seu dia a dia no trabalho."
+></TextView>
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@mipmap/perda1" />
+
+
+
+            <TextView
+                android:id="@+id/txt_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Qual é a importância da segurança da informação para as empresas?"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text=" A segurança da informação é mais do que uma questão estratégica para a empresa: ela é uma das responsáveis pela possibilidade de funcionamento do negócio.
+
+\n Afinal, como sabemos, dados são poder. E, cada vez mais, no ambiente empresarial, eles são utilizados de forma estratégica para o funcionamento e crescimento da organização.
+
+\n Por exemplo, o uso de big data nas corporações é cada vez mais disseminado. Porém, ele só funciona adequadamente se os dados estiverem disponíveis e forem precisos.
+
+\n Se, por falhas tecnológicas, um servidor para de receber determinadas informações, a análise fica comprometida e, assim, pode-se gerar uma visão errada da situação atual.
+
+\n Além disso, toda empresa trabalha com informações estratégicas em seu funcionamento: análise de concorrência, prospecção da criação de novos produtos ou serviços, análise de mercado, entre outros.
+
+\n Muitos cibercriminosos, sabendo disso, tendem a realizar invasões a fim de obterem essas informações e vendê-las, a fim de fornecer vantagem competitiva. Portanto, é essencial se precaver.
+
+\n Outro ponto essencial é: os cibercrimes têm crescido exponencialmente. E não é só para vazamento de informações, mas também para sequestro de dados (como os ataques ransomware), ataques DDoS (que tornam as informações indisponíveis), entre outros.
+
+\n E o Brasil está na mira dos hackers: nós somos o segundo país no mundo com o maior número de crimes nessa área, atrás apenas da China, com um prejuízo de US$ 22 bilhões.
+
+\n Por isso, é importante ter consciência do cenário em que estamos imersos e a necessidade real de evitar qualquer tipo de prejuízo mais grave para a empresa em que trabalha.
+
+\n E isso só é possível por meio de um planejamento e implementação de medidas de segurança da informação que contemplem o negócio como um todo.
+
+\n Essas medidas evitam que os problemas ocorram e, caso a situação se concretize, você tenha planos de contingência a serem aplicados." />
+
+            <TextView
+                android:id="@+id/txt_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Como aprimorar a segurança da informação por meio de 12 dicas práticas?"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+android:text=" Não basta apenas implementar as práticas de segurança da informação — é necessário assegurar que não há brechas. Para isso, é preciso que sejam aplicadas as melhores ações nessa área.
+
+\n Portanto, veja 12 dicas práticas que você deve implementar na sua área de TI o quanto antes e previna situações de risco que podem complicar o seu trabalho.
+
+\n\n 1. Acompanhe as tendências e evoluções da área
+\n Uma realidade da área de tecnologia é: as tendências e evoluções são muito rápidas dentro deste setor.
+
+\n Soluções novas são criadas todos os dias pelas maiores empresas especializadas da área, o que já torna necessário que os responsáveis da área de TI se mantenham atentos.
+
+\n Porém, a área de segurança da informação exige cuidados maiores neste aspecto. Isto porque os cibercriminosos também criam e investem em novos mecanismos de ação todos os dias.
+
+\n Um dos grandes exemplos foi o ransomware, que surpreendeu os especialistas em segurança de imediato, causando espanto em um primeiro momento, até a criação dos protocolos de mitigação de danos.
+
+\n Por isso, é fundamental pesquisar e estar atento todos dias às inovações que são lançadas. Assim, caso apareça alguma novidade, você poderá implementar medidas de contenção o quanto antes.
+
+\n\n 2. Mantenhas os softwares e drives atualizados
+\n Um dos principais meios de acesso dos hackers aos sistemas é por meio de falhas encontradas em softwares, sistemas operacionais e drives.
+
+\n Por isso as empresas fornecedoras estão sempre lançando novas atualizações, corrigindo as falhas que permitem esse tipo de ação e tornando os sistemas mais seguros.
+
+\n Porém, não adianta este trabalho se os gestores de TI não atualizarem os sistemas regularmente. Desta forma, as brechas permanecem e os cibercriminosos continuam tendo seus mecanismos de ação facilitados.
+
+\n\n 3. Estabeleça controle de acesso para os colaboradores
+\n Uma forma comum de facilitar os problemas de segurança da informação é por meio de ações inadequadas dos usuários. Vamos citar um exemplo bem corriqueiro.
+
+\n Um funcionário com acesso a informações não concernentes a sua área, sem querer, realiza uma exclusão de um arquivo importante, que não estava presente em nenhum backup feito anteriormente.
+
+\n Este tipo de falha humana é corriqueiro nas empresas. E pode ser dificultado por meio do controle de acesso para os colaboradores.
+
+\n Quanto menos pessoas têm acessos aos dados, menores são os riscos de erros deste tipo. Além disso, diminui-se as chances de vazamento de informações confidenciais ou estratégicas.
+
+\n\n 4. Estabeleça bloqueio de sistemas de saída
+\n Da mesma forma, é imprescindível investir em bloqueio de sistemas de saída, evitando que informações sejam vazadas sem o conhecimento dos funcionários de TI.
+
+\n Por exemplo, invista em bloqueios de aplicativos e sites que facilitem o recolhimento de arquivos e envio para fora da rede da empresa.
+
+\n Se há sistemas internos de e-mail, pode-se bloquear o uso de e-mails pessoais dentro do ambiente empresarial, bem como sites de redes sociais e aplicativos de conversação.
+
+\n\n 5. Crie políticas de segurança na empresa
+\n Todos os colaboradores fazem parte do processo de segurança da informação. Afinal, em alguma medida eles interferem no acesso às informações, seja por meio da criação de documentos, acesso à dados, facilitando a entrada de malwares com usos inadequados, etc.
+
+\n Por isso é fundamental estabelecer normas de conduta e políticas de segurança que devem ser seguidos por todos. Esse tipo de documentação permite normatizar as regras utilizadas na empresa.
+
+\n Com isso, torna-se possível diminuir as facilidades que permitem a ação de cibercriminosos ou falhas que comprometam os arquivos.
+
+\n Por meio disso, por exemplo, pode-se criar normas do que deve ser feito caso um funcionário encontre um problema em seu sistema: ao invés de tentar resolver por conta própria, ele deve entrar em contato com o setor responsável, que verificará o ocorrido.
+
+\n\n 6. Alinhe os processos às políticas de segurança
+\n Após a criação das políticas de segurança, é necessário alinhar os processos da empresa ao que foi normatizado e documentado anteriormente.
+
+\n Algumas alterações podem ser sutis, enquanto outras podem exigir uma reestruturação de toda a empresa, tornando-se necessário realizar um planejamento prévio de implementação.
+
+\n Por exemplo, caso opte-se por alterar o sistema operacional, é necessária uma mudança em todas as máquinas instaladas no ambiente empresarial. Demanda-se tempo e preparação.
+
+\n O mesmo ocorre com possíveis mudanças nas formas de hierarquia de arquivos, realização de backups recorrentes, entre outros.
+
+\n Assim, deve ser estabelecida, junto aos diretores das outras áreas, a necessidade de adequação dos processos, de forma a colocar em prática o que foi documentado anteriormente.
+
+\n Caso contrário, as falhas anteriores permanecerão e poderão causar problemas que deverão ser resolvidos posteriormente.
+
+\n\n 7. Treine os colaboradores para medidas de segurança
+\n Algumas questões elaboradas nas políticas de segurança podem não ser tão claras para os colaboradores, principalmente por envolverem questões específicas da área de tecnologia.
+
+\n Para evitar confusões, dúvidas e ações errôneas, é imprescindível realizar treinamento com todos os envolvidos, a fim de normatizar as condutas de todos, bem como ensinar medidas básicas de segurança.
+
+\n É por meio do treinamento, por exemplo, que pode ser explicado para todos as razões pelas quais as redes sociais são bloqueadas no ambiente empresarial.
+
+\n Isso auxilia para que não busquem outros métodos de acesso que podem também comprometer a segurança das informações.
+
+\n O treinamento também auxilia na uniformização de procedimentos em caso de problemas.
+
+\n Por exemplo, no caso de um ataque ransomware, todos os colaboradores terão a mesma conduta, evitando resolverem a situação por conta própria.
+
+\n\n 8. Tenha ferramentas de monitoramento
+\n É imprescindível utilizar ferramentas de monitoramento de atividades no cotidiano da área de TI. Para que a segurança seja eficaz, é preciso saber o que está acontecendo em toda a rede.
+
+\n Qualquer tipo de conduta errada, vulnerabilidade, mudança nos padrões de acesso deve ser percebida imediatamente, de forma a ser contida e evitar um ataque digital gerado por hackers.
+
+\n\n 9. Utilize a criptografia de dados
+\n A criptografia é uma importante aliada para a segurança da informação. Ela impede, por exemplo, que os arquivos sejam acessados caso sejam interceptados no meio do processo, só tendo as chaves de acesso, as pessoas que possuem a chave privada.
+
+\n Este tipo de ferramenta pode — e deve — ser utilizado no envio de informações estratégicas e confidenciais, evitando que hackers possam interceptar os dados e ter acesso ao que foi encaminhado.
+
+\n\n 10. Conte com ajuda de empresas especializadas em segurança da informação
+\n As empresas especializadas na área de segurança da informação podem ser estratégicas e essenciais para garantir a privacidade e integridade dos dados da sua corporação.
+
+\n Elas estão sempre atentos para as novidades, trazendo e desenvolvendo soluções importantes e inteligentes que ajudarão a potencializar os mecanismos de proteção.
+
+\n Por exemplo, pode-se contar com essas empresas para o armazenamento de backups na nuvem de forma segura.
+
+\n Assim, garante-se uma maior proteção para os dados e permitindo que sua equipe direcione os esforços para outras questões da área de TI.
+
+\n Além disso, em caso de desastres, como o ransomware, as empresas especializadas poderão auxiliar na resolução da situação com a aplicação de protocolos para mitigar os danos causados pela ação.
+
+\n\n 11. Crie planos de contingência
+\n Não basta apenas pensar em medidas preventivas. Como falamos ao longo deste artigo, os cibercriminosos são engenhosos e criam constantemente novas formas de atuação para conseguirem seus objetivos.
+
+\n Muitas vezes eles surpreendem os especialistas em segurança da informação, de forma que, até descobrir formas de reverter a situação, pode-se ter prejuízos inestimáveis.
+
+\n Além disso, os problemas não se limitam apenas aos casos de ataques feitos por hackers: desastres tecnológicos, falhas humanas, entre outros, são recorrentes. É preciso saber como agir nessas situações.
+
+\n Assim, é necessário estipular ações padronizadas, já que a mitigação dos danos pode ser realizada por qualquer um dos membros responsáveis pela área de segurança da informação.
+
+\n As ações podem variar de profissional para profissional, o que pode causar problemas posteriores. Portanto, é fundamental criar parâmetros de padronização.
+
+\n Por isso, é importante ter um plano detalhado para eventuais situações, de forma que todos operem da mesma forma e evitem falhas de comunicação e procedimentos errados.
+
+\n\n 12. Invista em backup
+\n Se tudo der errado e, assim, os dados encontrados em discos rígidos e servidores forem perdidos, é essencial ter uma espécie de “plano B” para não inviabilizar as funções cotidianas.
+
+\n O backup é a melhor opção nesses casos, provendo uma recuperação de dados eficiente, seja por meio de um servidor externo, um HD externo ou na nuvem. O essencial é não abrir mão dessa ferramenta."
+></TextView>
+            <TextView
+                android:id="@+id/txt_descriacaoperdadedados3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quais as consequências de não investir em segurança da informação?"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text=" O que pode acontecer caso o setor de TI não invista em segurança da informação ou, ao priorizar redução de gastos, utilize soluções que não sejam tão eficientes ou deixe de implementar alguma das práticas que citamos anteriormente?
+
+\n Bom, os resultados podem ser desastrosos em diversos níveis. A inviabilização do acesso aos dados pode gerar paralisação dos serviços e o processo pode demorar horas — ou, até mesmo, dias — para ser resolvido.
+
+\n Apenas alguns minutos de inviabilização podem causar prejuízos financeiros consideráveis, imagine dias? Complicado, não é mesmo?
+
+\n Problemas como vazamentos, fraudes bancárias, sequestros de dados, ataques DDoS, roubo de senhas, entre outros, identificam a fragilidade da segurança da organização, gerando um mal-estar no mercado.
+
+\n A confiabilidade sobre a empresa diminui, já que a imagem passada é que não há investimento na segurança da informação e, portanto, informações dos clientes podem ser expostas posteriormente.
+
+\n Além disso, pode ocorrer até mesmo consequências mais sérias. Por exemplo, a exposição dos dados da PS Network, da Sony, em 2011, gerou uma série de problemas para a empresa, inclusive processo judicial pela falha de segurança da informação.
+
+\n Esses são apenas alguns exemplos para se ter dimensão das proporções do que pode ocorrer caso não priorize medidas de excelência no que concerne à proteção de dados.
+
+\n Por isso, é essencial seguir as 12 dicas que listamos anteriormente e sempre estar atento às novidades da área."
+
+></TextView>
+
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@mipmap/perda3" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@mipmap/perda2" />
+
+            <TextView
+                android:id="@+id/text_cont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ainda esta com alguma dúvida? Entre em contato conosco através do nosso WhatsApp."
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <ImageView
+                android:id="@+id/image_whatsap"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                app:srcCompat="@mipmap/whatsap" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Referência:
+\n https://ecoit.com.br/seguranca-da-informacao/
+\n http://seguranca-da-informacao.info/
+\n https://tecnoblog.net/43829/o-que-e-seguranca-da-informacao/"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold|italic" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

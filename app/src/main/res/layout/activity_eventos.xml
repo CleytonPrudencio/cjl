@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".Eventos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_eventos"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/txt_eventos"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image_toquesingelo"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@mipmap/toquesingelo2"
+                android:contentDescription="Toque Singelo" />
+
+            <View
+                android:id="@+id/view25"
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/txt_toquesingelotitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_toquesingelo"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_toquesingelodescricao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" A Toque Singelo criada por músicos do bairro de Guarulhos, nos ultimos anos vem conseguindo surpreender a todos por suas composições, sutileza e compromisso.
+
+       \n A Banda composta por Guitarrista, Baterista, Tecladista, Cantor e Baixo, tem como objetivo fazer eventos, shows e participar de WorkShops como forma dr mostrar ao mundo o seu talento. "
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_agendatoque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="AGENDA TOQUE SINGELO"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/instagram_toquesingelo"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                app:srcCompat="@mipmap/instgram" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

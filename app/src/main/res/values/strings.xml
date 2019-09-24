@@ -1,0 +1,41 @@
+<resources>
+    <string name="facebook_app_id">302006247354100</string>
+    <string name="fb_login_protocol_scheme">fb302006247354100</string>
+    <string name="app_name">Consultoria CJL</string>
+
+    <string name="txt_toolbar">Consultoria CJL</string>
+    <string name="quem_somos"><u>Quem Somos</u></string>
+    <string name="txt_servicos"><u>Nossos Serviços</u></string>
+    <string name="txt_manutencao"><u>Manutenção</u></string>
+    <string name="txt_configuracao"><u>Configuração</u></string>
+    <string name="txt_ferramentas"><u>Ferramentas</u></string>
+    <string name="txt_design"><u>Design</u></string>
+    <string name="txt_redes"><u>Redes</u></string>
+    <string name="txt_eventos"><u>Eventos</u></string>
+    <string name="txt_especialidade">Especialidades</string>
+    <string name="txt_especialidadenome">Cleyton Sales</string>
+    <string name="txt_diretoria"><u>Diretoria</u></string>
+    <string name="txt_toquesingelo"><u>Toque Singelo</u></string>
+    <string name="txt_local">Localidade CJL</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="txt_endereco">Endereço</string>
+    <string name="txt_cliqueaqui">Clique no botão abaixo para ver no Mapa</string>
+    <string name="txt_cresc">Crescimento Empresarial</string>
+    <string name="txt_contato">Contatos</string>
+    <string name="txt_tconosco">Trabalhe Conosco</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_cadastro">CADASTRE-SE</string>
+    <string name="txt_comp">SOLUÇÕES</string>
+    <string name="txt_perdadedados">PERDA DE DADOS</string>
+    <string name="txt_solucoes">SOLUÇÕES</string>
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+    <string name="txt_quiz">QUIZ</string>
+    <string name="txt_segurancadainformacao">Segurança da Informação</string>
+    <string name="quiz_final">Resultado</string>
+    <string name="signed_out">Sair</string>
+    <string name="nome">Nome</string>
+
+</resources>

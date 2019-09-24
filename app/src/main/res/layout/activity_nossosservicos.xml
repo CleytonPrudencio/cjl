@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NossosServicos"
+    android:background="@color/colorPrimary"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_patrimonio"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/txt_servicos"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_manutencao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_manutencao"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_descricaomanutencao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trabalhamos com manutenção de redes, e manutenção de computadores de pequeno e grande portes. Prestamos consultoria, com SLA bem curto, para melhor atender nossos clientes. "
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_configuração"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_configuracao"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_descricaoconfiguração"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Toda empresa, seja de grande ou pequeno porte, precisa ser destacada pelo alto desempenho na sua parte de tecnologia que move a empresa no mundo atual. A CJL, garante as melhores configurações conforme sua empresa precisar, assim deixando satisfeito nossos clientes. "
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_ferramentas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_ferramentas"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_descricaferrmentas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Para uma boa manutenção e configuração, necessitamos de boa ferramentas e profissionais para executar com excelência o serviço. A CJL garante profissionais a disposição dos clientes para atende-los. "
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_design"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_descricadesign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A CJL, presta serviços de BackEnd para Mobile, e garantimos também em nossas infraestruturas, todas, sem nenhuma restrição, com a melhor organização possível. É uma regra da empresa CJL garantir a organização de redes. "
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_redes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_redes"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_descricaredes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A CJL, especializada em redes, tanto em criação e manutenção, garante ao cliente uma rede de alta tecnologia e velocidade, para melhor utilização do seu sistema empresarial. "
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_eventos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_eventos"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_descricaoeventos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A CJL, faz a consultoria, participação e patrocínio de eventos, assim como a carreira da Toque Singelo para eventos, casamentos e shows. "
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

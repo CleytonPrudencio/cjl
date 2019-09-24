@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".perda_de_dados">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_perdadedados"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/txt_perdadedados"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_descriacaoperdadedados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O que é perda de dados?"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Geralmente, a perda de dados é caracterizada por um ou mais do seguinte:
+
+\nA incapacidade de acessar quaisquer dados de um sistema de computação em boas condições de funcionamento ou um backup
+\nA exclusão acidental de arquivos ou substituição de estruturas de controle de dados
+\nArquivos corrompidos ou inacessíveis devido a operação anormal do dispositivo ou dano
+\nEntre outras causas, a perda de dados pode ser atribuída a erro do sistema ou humano, condições ambientais adversas e falha do dispositivo:
+
+\nAs causas humanas incluem exclusão intencional ou acidental ou substituição de arquivos.
+\nDanos por vírus, problemas no sistema operacional ou software de aplicativo ou falha em atualizações também podem causar perda de dados.
+\nAs causas físicas comuns da perda de dados incluem queda de energia ou sobretensão, superaquecimento, descarga eletrostática (estática) e qualquer tipo de dano físico no dispositivo ou mídia de armazenamento."
+                android:textColor="@color/colorAccent" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@mipmap/ic_launcher_foreground2" />
+
+            <TextView
+                android:id="@+id/txt_descriacaoperdadedados2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dicas gerais de prevenção contra a perda de dados"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Software e hardware"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text=" \nDocumente os seus sistemas e arquive cópias originais dos seus softwares em um local seguro.
+\n Faça backup dos seus arquivos com frequência e teste e verifique se o backup é uma cópia completa do original. Discos externos são uma opção excelente para realizar essa tarefa.
+\n Nunca atualize softwares ou hardwares sem ter um backup completo verificado disponível, para o caso de você precisar restaurar dados.
+\n Se estiver usando o Microsoft Windows XP, estabeleça pontos de restauração do sistema antes de fazer qualquer alteração significativa no sistema.
+\n Escreva um plano de emergência e pratique restaurar os seus dados em caso de problemas. O plano de emergência deve incluir, pelo menos:
+\n Localizar todos os backups existentes, incluindo datas e tipos de backup.
+\n Listar e localizar todos os pacotes de software originais, detalhando as atualizações desde a instalação original.
+\n Localizar e deixar à disposição um computador alternativo.
+\n Implemente firewalls e proteção contra vírus.
+\n Exclua arquivos e aplicativos não usados. Use um desfragmentador de disco, que é um programa geralmente incluído entre os utilitários do sistema operacional.
+\n Assegure que haja condições ambientais apropriadas (limpeza, temperatura e umidade estáveis) e o manuseio adequado para evitar descarga eletrostática e queda acidental.
+\n Proteja os sistemas fisicamente contra invasores.
+\n Prepare-se para enfrentar desastres físicos, inclusive com o uso de armazenamento para backup fora do local.
+\n As próximas seções descrevem tipos de recuperação de dados e os formatos e fabricantes aceitos. Recuperação de dados RAID, recuperação de fotos digitais e perda de dados de estação de trabalho VMWare são abordados em artigos separados em “Links relacionados”.
+\n" />
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@mipmap/infograficoperdadadossmall" />
+
+
+
+            <TextView
+                android:id="@+id/txt_descriacaoperdadedados3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recuperação de dados de laptop"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text=" Como costumam ser transportados e expostos a diferentes fatores ambientais, como calor, água e poeira, os laptops e notebooks são muito mais propensos a sofrer perda de dados do que os desktops. A portabilidade torna esses dispositivos sofisticados e essenciais bons candidatos à perda de dados.
+
+\n Falha mecânica e elétrica, corrupção de software e erro humano podem causar perda de dados. Aqui estão alguns dos sintomas mais observados da perda de dados e de problemas de acessibilidade de dados:
+
+\n Notebook que sofreu queda - não liga mais
+\n Discos e partições inacessíveis
+\n Aplicativos que não podem ser executados ou não carregam dados
+\n Dados corrompidos
+\n Ataques de vírus
+\n Falha de componente de disco rígido
+\n Pane de disco rígido
+\n Dano devido a incêndio ou líquidos
+\n Contaminação ou dano na superfície de mídia
+\n Reformatação acidental de partições
+\n Exclusão acidental de dados" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Discos rígidos de laptop aceitos"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Você pode não saber disso, mas a unidade de disco rígido instalada no seu laptop não é necessariamente do mesmo fabricante do laptop. O Seagate Recovery Services recupera dados de todas as marcas, modelos e interfaces de notebooks e laptops, ou seja, de todos os tipos de disco rígido de todos os fabricantes, incluindo Western Digital, Seagate, Toshiba, Fujitsu, Hitachi e Samsung." />
+
+            <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@mipmap/grafico1" />
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@mipmap/grafico02" />
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@mipmap/grafico3" />
+
+            <TextView
+                android:id="@+id/text_cont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ainda esta com alguma dúvida? Entre em contato conosco através do nosso WhatsApp."
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                 />
+
+            <ImageView
+                android:id="@+id/image_whatsap"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                app:srcCompat="@mipmap/whatsap" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Referência:
+\n https://ecoit.com.br/perda-de-dados-nas-empresas/
+\n https://www.seagate.com/br/pt/tech-insights/data-loss-and-recovery-solutions-master-ti/"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold|italic" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".Diretoria">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_diretoria"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/txt_diretoria"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_nomediretoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_especialidadenome"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_descricaoespecialidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text=" Desenvolvedor Mobile, certificado JAVA, experiência a mais de 5 anos na area de tecnologia da informação. \n Diversos cursos em informatica, especialista em desenvolvimento e criação / Manutenção de infraestruturas. Recentemente especializado em SQL SERVER. \n Conhecimentos em DataCenter e Servidores fisicos e Cloud.
+        "
+                android:textAlignment="textStart"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:textAlignment="center"
+                app:srcCompat="@mipmap/cleytonfoto" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image_instagram"
+                    android:layout_width="91dp"
+                    android:layout_height="112dp"
+                    android:src="@mipmap/instgram" />
+
+                <ImageView
+                    android:id="@+id/image_facebook"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/facebook7" />
+
+                <ImageView
+                    android:id="@+id/image_whatsap"
+                    android:layout_width="95dp"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/whatsap" />
+
+                <ImageView
+                    android:id="@+id/image_email"
+                    android:layout_width="91dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/eeeeee" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

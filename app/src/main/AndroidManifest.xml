@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.consultoria.cjl"
+    android:versionCode="14"
+    android:versionName="14">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/txt_toolbar"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".Firebase.LoginActivity"
+            android:label="Consultoria CJL">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Quiz"/>
+        <activity android:name=".Inicio"/>
+        <activity android:name=".Quiz_10" />
+        <activity android:name=".Quiz_9" />
+        <activity android:name=".Eventos" />
+        <activity android:name=".Quiz_8" />
+        <activity android:name=".Quiz_7" />
+        <activity android:name=".Quiz_6" />
+        <activity android:name=".Quiz_5" />
+        <activity android:name=".Quiz_4" />
+        <activity android:name=".Quiz_final" />
+        <activity android:name=".Quiz_3" />
+        <activity android:name=".Quiz_2" />
+        <activity android:name=".Diretoria" />
+        <activity android:name=".NossosServicos" />
+        <activity android:name=".dados_de_seguranca" />
+        <activity android:name=".Quiz_1" />
+        <activity android:name=".EmBreve" />
+        <activity android:name=".perda_de_dados" />
+        <activity android:name=".QuemSomos" />
+        <activity android:name=".solucoes_inicio" />
+        <activity android:name=".Computadores" />
+        <activity android:name=".Site" />
+        <activity android:name=".Firebase.CadastroActivity"/>
+        <activity android:name=".TrabalheConosco" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MapsActivity" />
+        <activity android:name=".Contato" />
+        <activity android:name=".Local" />
+
+        <activity android:name=".CrescimentoEmpresarial" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+
+        <uses-library android:name="com.google.android.maps" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+      </application>
+
+  </manifest>

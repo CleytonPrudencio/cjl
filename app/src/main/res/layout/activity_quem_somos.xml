@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuemSomos"
+    android:background="@color/colorPrimary"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_quemsomos"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/quem_somos"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="356dp"
+                android:text="  A Consultoria CJL foi fundada em 2014, com intuito de prestar consultoria na área de manutenção de computadores. Conforme o crescimento e sucesso, nos especializamos em outras áreas para atender nossos clientes. Hoje a CJL trabalha com criação de Infraestrutura, manutenção do mesmo, além de criação de App Mobile, e Desktop. Fazemos toda a análise de risco de sua empresa em Rede e fornecemos projetos para melhorias. A CJL, no ano de 2018 atingiu o âmbito Internacional, tendo em vista atender empresas em todo o mundo.
+           \nAssim como também, a CJL trabalha com eventos, congressos e workshops, para assim garantir a marca e publicidade da empresa em diversos locais do mundo."
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

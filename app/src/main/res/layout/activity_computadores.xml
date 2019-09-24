@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".Computadores">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_comp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/txt_comp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_descricaocomp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="  Esta pagina tem como objetivo tirar duvidas sobre defeitos em computadores, notebooks, problemas de hardware e software. Aqui você vai encontrar soluções para o seu problema em casa como por exemplo: "
+                />
+
+            <TextView
+                android:id="@+id/txt_descricaocomp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="\nProblema: Não consigo entrar na Internet."
+            />
+
+            <TextView
+                android:id="@+id/txt_descricaocomp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="\n  A CJL ira te ajudar a descobrir a solução para o problema relatado, mostrando alguns pontos que possam estar interferindo no seu problema, e também mostrando como solucionar previamente.
+                \nSolução: Verificar Cabo de rede (Se conexão cabeada), verificar se existe internet em outro dispositivo via Wi-fi (Se conexão for wirelles)
+                \nCaso não resolva, você tera a opção de contatar a CJL para resolver seu problema e/ou tirar duvidas."
+             />
+
+            <TextView
+                android:id="@+id/txt_descricaocomp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nClique no botão abaixo (Soluções) e tire suas duvidas e/ou problemas"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/btn_solucoes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="\nSoluções"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+</LinearLayout>

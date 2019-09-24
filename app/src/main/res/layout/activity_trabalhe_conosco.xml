@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".TrabalheConosco">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_trabalheconosco"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/txt_tconosco"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textdescricao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A CJL busca no mercado os melhores profissionais em cada area de atuação.
+        \nSendo assim, temos as vagas abertas de:
+        \n- Analista de Sistemas I
+        \n- Desenvolvedor Mobile
+        \n- Suporte Técnico I
+        \n- Técnico de Campo
+        \n- Panfletagem
+
+        \nCaso queira participar do nosso processo seletivo, clique na imagem abaixo
+        \nvocê sera redirecionado para a nosssa pagina e preenchera um formulario.
+
+        \nVocê tambem pode nos enviar seu curriculo diretamente no e-mail: consultoria@consultoriacjl.com\n\n"
+                android:textColor="@color/colorAccent" />
+
+            <ImageView
+                android:id="@+id/image_trabalheconosco"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                app:srcCompat="@mipmap/trabalheconosco" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

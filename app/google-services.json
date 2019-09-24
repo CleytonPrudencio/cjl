@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "395985726308",
+    "firebase_url": "https://consultoriacjl-1555726701557.firebaseio.com",
+    "project_id": "consultoriacjl-1555726701557",
+    "storage_bucket": "consultoriacjl-1555726701557.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395985726308:android:494de1e784d2506c",
+        "android_client_info": {
+          "package_name": "com.consultoria.cjl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395985726308-9s5hvsgbg3p7qbpnkcuci61nt29uqfo3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.consultoria.cjl",
+            "certificate_hash": "4134994553f0ac0d2306969ee6dffeb71ad6867c"
+          }
+        },
+        {
+          "client_id": "395985726308-7doch5kom457cko58ltt4aurkttg7uk6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.consultoria.cjl",
+            "certificate_hash": "f2b60dee8614e82390eea71f69fbb775eaaebb54"
+          }
+        },
+        {
+          "client_id": "395985726308-528tum9iobs0k90hja8tvs7buictpi36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbRQ7gjcXVFKkb3eHn8S4eVIH22sMvnR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395985726308-528tum9iobs0k90hja8tvs7buictpi36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
